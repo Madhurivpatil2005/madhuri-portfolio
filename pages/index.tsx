@@ -185,8 +185,7 @@ const index: React.FC<indexProps> = () => {
               <p className="preloader__text">JAVASCRIPT</p>
               <p className="preloader__text">TYPESCRIPT</p>
               <p className="preloader__text">REACT JS</p>
-              <p className="preloader__text">NEXT JS</p>
-              <p className="preloader__text">FRAMER MOTION</p>
+
             </motion.div>
           </div>
         </motion.div>

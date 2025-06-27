@@ -79,21 +79,21 @@ const index: React.FC<indexProps> = () => {
     );
 
     // header cursor
-    const cursor = document.querySelector(".cursor");
-    window.onmousemove = (e: any) => {
-      cursor!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX}px;`);
-    };
+    // const cursor = document.querySelector(".cursor");
+    // window.onmousemove = (e: any) => {
+    //   cursor!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX}px;`);
+    // };
 
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by Adeola Adeoti %c %c🚀 %c\n",
+      "%c Designed and Developed by Madhuri Patil %c %c🚀 %c\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
       "background: #242424; padding:5px 5px 5px 0",
     ]);
     console.log.apply(console, [
-      "%c Thanks for stopping by, I’m currently looking to a new team of creative designers and developers.\n",
+      "%c Thanks for stopping by, I'm currently looking to a new team of creative designers and developers.\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
     ]);
   }, []);
@@ -129,7 +129,7 @@ const index: React.FC<indexProps> = () => {
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Adeola Adeoti 🚀 &mdash; Frontend Devloper</title>
+          <title>Madhuri Patil🚀 &mdash; Frontend Devloper</title>
           <meta
             name="description"
             content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
@@ -137,7 +137,7 @@ const index: React.FC<indexProps> = () => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Madhuri Patil 🚀 &mdash; Frontend Devloper"
           />
           <meta property="og:url" content="https://adeolaadeoti.xyz/" />
           <meta property="og:image" content="webp/preview-image.png" />
@@ -147,7 +147,7 @@ const index: React.FC<indexProps> = () => {
           />
           <meta
             name="twitter:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Madhuri Patil🚀 &mdash; Frontend Devloper"
           />
           <meta
             name="twitter:description"
@@ -173,7 +173,7 @@ const index: React.FC<indexProps> = () => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
+              {/* <img src="svg/adeola-logo-left.svg" alt="adeola logo" /> */}
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
@@ -277,40 +277,33 @@ const index: React.FC<indexProps> = () => {
             </div>
             <div className="header__footer--right">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/Madhurivpatil2005"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GH
               </a>
               <a
-                href="https://twitter.com/adeolajs"
+                href="https://x.com/MadhuriPat86906"
                 rel="noopener"
                 target="_blank"
               >
                 🐦 TW
               </a>
               <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://www.linkedin.com/in/madhuri-patil-1866072a7/"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LD
               </a>
-              <a
-                href="https://www.instagram.com/adeolaadeoti_"
-                rel="noopener"
-                target="_blank"
-              >
-                {" "}
-                📸 IN
-              </a>
+            
             </div>
           </div>
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! 👋, my name is adeola and I am a frontend engineer,
+            Hello stranger! 👋, my name is Madhuri Patil and I am a frontend engineer,
             passionate <br /> about digital products that help people experience
             everyday life, not endure it.
           </p>
@@ -320,9 +313,9 @@ const index: React.FC<indexProps> = () => {
             </h1>
             <p className="paragraph">
               Each project is unique. Here are some of my works.
-            </p>
+            </p></section>
 
-            <div className="project-card">
+            {/* <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
                   NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
@@ -512,7 +505,7 @@ const index: React.FC<indexProps> = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           <section
             data-scroll
             data-scroll-offset="35%"
@@ -520,7 +513,7 @@ const index: React.FC<indexProps> = () => {
             data-scroll-class="section-reviews__bg"
             className="section-reviews"
           >
-            <div className="section-reviews__top">
+            {/* <div className="section-reviews__top">
               <h1 className="heading-1">
                 <span>Mmmm, a little brag </span> <small>😊</small>
               </h1>
@@ -565,14 +558,14 @@ const index: React.FC<indexProps> = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </section>
           <section className="section-contact">
-            <h1 className="heading-1">
+             {/* <h1 className="heading-1">
               <span>Sold Yet? </span> <small>🤙</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to join a new team
+              Thanks for stopping by, I'm currently looking to join a new team
               of creative designers and developers. If you think we might be a
               good fit for one another, send me an
               <a
@@ -581,9 +574,9 @@ const index: React.FC<indexProps> = () => {
                 target="_blank"
               >
                 &nbsp; email 📧
-              </a>
+              </a> 
               .
-            </h2>
+            </h2> */}
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
@@ -592,33 +585,33 @@ const index: React.FC<indexProps> = () => {
             <p className="paragraph">Connect with me online</p>
             <div className="section-socials--links">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/Madhurivpatil2005"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GitHub
               </a>
               <a
-                href="https://twitter.com/adeolajs"
+                href="https://x.com/MadhuriPat86906"
                 rel="noopener"
                 target="_blank"
               >
                 🐦 Twitter
               </a>
               <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://www.linkedin.com/in/madhuri-patil-1866072a7/"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LinkedIn
               </a>
-              <a
+              {/* <a
                 href="https://www.instagram.com/adeolaadeoti_"
                 rel="noopener"
                 target="_blank"
               >
                 📸 Instagram
-              </a>
+              </a> */}
             </div>
           </section>
         </main>
@@ -636,7 +629,7 @@ const index: React.FC<indexProps> = () => {
               <img src="svg/dribble.svg" alt="dribble logo" />
             </a>
             <a
-              href="https://github.com/adeolaadeoti/adeolaadeoti-v2"
+              href="https://github.com/Madhurivpatil2005"
               target="_blank"
               rel="noopener"
             >

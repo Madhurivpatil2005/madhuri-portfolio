@@ -51,33 +51,33 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           <h4 className="navigation-h4">DONT BE A STRANGER</h4>
           <div className="navigation-top__left--links">
             <a
-              href="https://github.com/adeolaadeoti"
+              href="https://github.com/Madhurivpatil2005"
               rel="noopener"
               target="_blank"
             >
               👾 GH
             </a>
             <a
-              href="https://twitter.com/adeolajs"
+              href="https://x.com/MadhuriPat86906"
               rel="noopener"
               target="_blank"
             >
               🐦 TW
             </a>
             <a
-              href="https://www.linkedin.com/in/adeoladev"
+              href="https://www.linkedin.com/in/madhuri-patil-1866072a7/"
               rel="noopener"
               target="_blank"
             >
               💼 LD
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/adeolaadeoti_"
               rel="noopener"
               target="_blank"
             >
               📸 IN
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="navigation-top__right">
@@ -100,9 +100,9 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         }
         className="navigation-bottom"
       >
-        <h4 className="navigation-h4">FEATURED PROJECTS</h4>
-        <div className="navigation-bottom__projects">
-          <a
+        {/* <h4 className="navigation-h4">FEATURED PROJECTS</h4> */}
+         {/* <div className="navigation-bottom__projects"> */}
+          {/* <a
             target="_blank"
             rel="noopener"
             href="https://alexxandria.vercel.app/"
@@ -136,8 +136,8 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
               <br />
               Version 1
             </h2>
-          </a>
-        </div>
+          </a> */}
+        {/* </div>  */}
       </motion.div>
     </motion.div>
   </motion.div>

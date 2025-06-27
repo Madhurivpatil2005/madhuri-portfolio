@@ -38,7 +38,7 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
         data-scroll-target="#menu-target"
         className="menu-top"
       >
-        <Link href="/" className="brand-logo">
+        {/* <Link href="/" className="brand-logo">
           <img
             className="brand-logo__icon"
             src="svg/adeola-logo-left.svg"
@@ -51,7 +51,7 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
               alt="adeola logo text"
             />
           </span>
-        </Link>
+        </Link> */}
         <MenuToggle toggle={toggleOpen} toggleState={isOpen} />
       </div>
     </motion.div>
